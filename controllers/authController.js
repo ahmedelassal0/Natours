@@ -2,7 +2,6 @@ const { promisify } = require('util');
 
 const crypto = require('crypto');
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcryptjs');
 const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/AppError');
 const Email = require('./../utils/email');
